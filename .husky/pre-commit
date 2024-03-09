@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+# \033[1m is Terminal formatting in below message
+echo '\033[1mRUNNING PRE-COMMIT VALIDATIONS\033[0m';
+npx lint-staged
